@@ -39,7 +39,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 ---
 
-## ✨ Features
+##  Features
 
 ###  Implemented & Under Testing (As of June-End)
 - Chatbot UI with chat history
@@ -80,6 +80,6 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 > **Intern:** Paakhi Priya  
 > **Mentor Lab:** SSPL, DRDO  
 > **Project Duration:** 8 weeks  
-> **Title:** *Building a Lightweight Gen-AI Agent for DRDO Research Support*
+> **Title:** *Building a Gen-AI Assistant for DRDO Research Support*
 
 
