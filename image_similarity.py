@@ -20,7 +20,7 @@ def get_image_embedding(image):
         embeddings = model.get_image_features(**inputs)
     return embeddings[0].cpu().numpy()
 
-# Build FAISS index (assumes run once)
+# Build FAISS index 
 def build_index():
     vectors = []
     for path in image_paths:
