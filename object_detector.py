@@ -1,9 +1,11 @@
+# object_detector.py
+
 import torch
 from PIL import Image
 import numpy as np
 import io
 
-# Load YOLOv5s model (CPU-friendly, small variant)
+# Load YOLOv5s model 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', trust_repo=True)
 model.eval()
 
@@ -14,8 +16,10 @@ def detect_objects(uploaded_file):
     # Run inference
     results = model(image)
 
-    # Convert results to image with bounding boxes
-    results.render()  # updates results.imgs with boxes
-    detected_img = Image.fromarray(results.imgs[0])
+    # Render results to add bounding boxes
+    results.render()
+
+    # Convert NumPy array to PIL Image
+    detected_img = Image.fromarray(results.ims[0])
 
     return detected_img
