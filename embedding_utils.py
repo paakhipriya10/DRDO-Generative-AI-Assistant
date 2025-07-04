@@ -11,7 +11,7 @@ FAISS_INDEX_FILE = "faiss_store/index.faiss"
 FAISS_DOCS_FILE = "faiss_store/docs.pkl"
 
 # Load embedding model
-embedding_model = SentenceTransformer("all-MiniLM-L6-v2")  # Light and fast
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")  
 
 def get_texts():
     """
