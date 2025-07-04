@@ -8,33 +8,38 @@ PyPDF2==3.0.1
 requests==2.31.0
 beautifulsoup4==4.12.3
 
-# Hugging Face Transformers
-transformers==4.40.1
+# Hugging Face Transformers and Embeddings
+transformers==4.30.2
 sentence-transformers==2.2.2
+huggingface-hub==0.16.4
 torch==2.2.1
+torchvision==0.17.1
 numpy==1.26.4
 
-# FAISS for Semantic & Image Search
+# FAISS for Image & Semantic Search
 faiss-cpu==1.7.4
 
 # Image Processing
+opencv-python==4.9.0.80
 Pillow==10.3.0
-torchvision==0.17.1
 
-# Progress Bar
-tqdm==4.66.2
-
-# Environment
-python-dotenv==1.0.1
-
-# Code Parsing
-astunparse==1.6.3
-
-# Translation Dependencies
-indic-transliteration==2.3.44
-sentencepiece==0.1.99
-protobuf==4.25.3
+# Visualizations
+seaborn==0.13.2
 
 # CLIP Preprocessing
 ftfy==6.1.3
 regex==2024.4.28
+
+# Translation Dependencies
+sentencepiece==0.1.99
+protobuf==4.25.3
+indic-transliteration==2.3.44
+
+# Code Parsing
+astunparse==1.6.3
+
+# Environment Variable Loader
+python-dotenv==1.0.1
+
+# Utility
+tqdm==4.66.2
