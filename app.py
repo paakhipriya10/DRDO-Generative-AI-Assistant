@@ -1,7 +1,7 @@
 import streamlit as st
 from agent_core import process_query
 from object_detector import detect_objects
-from image_similarity import find_similar_images
+from image_similarity import search_similar_images
 from code_analyzer import explain_code
 from translator import translate_text
 
@@ -68,7 +68,7 @@ with tab1:
 
 # === Tab 2: Object Detection ===
 with tab2:
-    st.subheader("Detect objects in images (YOLOv5s)")
+    st.subheader("Detect objects in images ")
     image_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"], key="obj-detect")
     if image_file:
         with st.spinner("Detecting..."):
@@ -77,17 +77,16 @@ with tab2:
 
 # === Tab 3: Image Similarity ===
 with tab3:
-    st.subheader("Find similar images using CLIP + FAISS")
+    st.subheader("Find similar images ")
     query_img = st.file_uploader("Upload query image", type=["jpg", "png"], key="clip-sim")
     if query_img:
-        with st.spinner("Finding similar images..."):
-            results = find_similar_images(query_img)
-            for img_path in results:
-                st.image(img_path, caption="Similar Image", use_column_width=True)
+        with st.spinner("Finding most similar image..."):
+            result_path, result_name = search_similar_images(query_img)
+            st.image(result_path, caption=f"Match: {result_name}", use_column_width=True)
 
 # === Tab 4: Code Analyzer ===
 with tab4:
-    st.subheader("Explain code snippets (CodeT5-small)")
+    st.subheader("Explain code snippets ")
     code_input = st.text_area("Paste your code here:", height=200)
     if code_input:
         with st.spinner("Analyzing code..."):
@@ -96,8 +95,8 @@ with tab4:
 
 # === Tab 5: Translator ===
 with tab5:
-    st.subheader("Translate Indian language text (IndicTrans2)")
-    src_text = st.text_area("Enter text in Hindi, Tamil, etc.:", height=150)
+    st.subheader("Translate Indian language text ")
+    src_text = st.text_area("Enter text in Hindi/English :", height=150)
     if src_text:
         with st.spinner("Translating..."):
             translated = translate_text(src_text)
