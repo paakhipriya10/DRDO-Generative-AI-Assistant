@@ -35,8 +35,8 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 - **Image & Code Models:** 
   - YOLOv5s (Object Detection)
   - CLIP + FAISS (Image Similarity)
-  - Helsinki-NLP’s opus-mt model (Indian Language Translation)
-  - Python-based rules/parsing heuristics along with BART(a powerful AI model) as a backup. (Code Analysis)
+  - Helsinki-NLP’s opus-mt model (Indian Language Translation)(IndicTrans2 model unavailable)
+  - Python-based rules/parsing heuristics along with BART(a powerful AI model) as a backup. (Code Analysis)(switched from CodeT5 model)
 
 ---
 
@@ -54,8 +54,8 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 ###  Under Integration (To be completed by July-End)
 - Object detection from uploaded images (YOLOv5s)
 - CLIP-based image similarity search
-- IndicTrans2-based multilingual translation
-- Code analysis using CodeT5-small
+- Helsinki-NLP’s opus-mt model multilingual translation (due to unavaibility of IndicTrans2 model)
+- Code analysis using python-based rules/parsing heuristics(switched from CodeT5 model)
 
 ---
 
