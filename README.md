@@ -10,6 +10,21 @@ Navigating vast volumes of DRDO research data, technical PDFs, lab profiles, and
 
 ---
 
+##  Solution Approach
+
+We are building an offline-capable chatbot-based web application without external API calls for security that:
+- Scrapes, processes, and indexes DRDO data offline
+- Uses NLP and semantic embeddings to understand and answer queries
+- Summarizes long technical documents
+- Supports image and code intelligence tasks in later stages
+- Provides bilingual translation of techincal documents(Hindi to English and English to Hindi)
+- Does Code analysis of scripts
+- Supports Image-based searching and object/threat detection in images
+
+The assistant performs all inference locally using CPU-friendly, lightweight models, making it privacy-safe and deployable even in restricted environments.
+
+---
+
 ###  Use Cases
 
 #### 1. Chatbot Assistant *(NLP + Retrieval-Augmented Generation)*
@@ -31,21 +46,6 @@ Navigating vast volumes of DRDO research data, technical PDFs, lab profiles, and
 #### 5. Language Translation *(Helsinki-NLP’s opus-mt)*
 - **Function:** Translates between English and Hindi using Helsinki-NLP’s opus-mt model.  
 - **Use Case:** Helps in multi-lingual communication across DRDO labs and translating technical material or reports.
-
----
-
-##  Solution Approach
-
-We are building an offline-capable chatbot-based web application without external API calls for security that:
-- Scrapes, processes, and indexes DRDO data offline
-- Uses NLP and semantic embeddings to understand and answer queries
-- Summarizes long technical documents
-- Supports image and code intelligence tasks in later stages
-- Provides bilingual translation of techincal documents(Hindi to English and English to Hindi)
-- Does Code analysis of scripts
-- Supports Image-based searching and object/threat detection in images
-
-The assistant performs all inference locally using CPU-friendly, lightweight models, making it privacy-safe and deployable even in restricted environments.
 
 ---
 
