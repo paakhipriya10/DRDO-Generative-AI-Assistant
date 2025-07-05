@@ -17,7 +17,7 @@ We are building an offline-capable chatbot-based web application without externa
 - Uses NLP and semantic embeddings to understand and answer queries
 - Summarizes long technical documents
 - Supports image and code intelligence tasks in later stages
-- Provides bilingual translation of techincal documents
+- Provides bilingual translation of techincal documents(Hindi to English and English to Hindi)
 - Does Code analysis of scripts
 - Supports Image-based searching and object/threat detection in images
 
