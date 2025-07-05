@@ -91,7 +91,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 4. Install all required libraries using:
    ```bash
    pip install -r requirements.txt
-5. Do scraping using scraper.py and dowloadd PDFs or directly use dummy database stored in data folder
+5. Do scraping using scraper.py and dowload PDFs or directly use dummy database stored in data folder
 6. Run setup:
    ```bash
    python setup.py  
