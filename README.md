@@ -1,6 +1,6 @@
 #  DRDO Gen-AI Assistant
 
-An intelligent Gen-AI assistant built for DRDO staff and researchers to semantically search, summarize, and interact with DRDO documents and lab data.It also provides functionalities like object(threat) detection,multilingual translation,image similarity search and code analysis.It is going to be built right from scratch without any external API calls to ensure safety of confidential DRDO data.
+An intelligent,offline-capable Gen-AI assistant built for DRDO staff and researchers to semantically search, summarize, and interact with DRDO documents and lab data.It also provides functionalities like object(threat) detection,multilingual translation,image similarity search and code analysis.It is going to be built  without any external API calls to ensure safety of confidential DRDO data.
 
 ---
 
@@ -25,17 +25,18 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 ## Tech Stack
 
 - **Frontend:** Streamlit (custom-styled UI with tabbed navigation)
+- **Dummy Database**: curated through offline web scraping using the BeautifulSoup Python library
 - **Backend Models:**
   - *Q/A:* DistilBERT (SQuAD fine-tuned)
   - *Summarization:* DistilBART (CNN/DailyMail)
   - *Embeddings:* SentenceTransformers (MiniLM)
 - **Data Indexing:** FAISS (for semantic search)
 - **Scraping:** Offline web scraping using BeautifulSoup
-- **Image & Code Models:** (Upcoming)
+- **Image & Code Models:** 
   - YOLOv5s (Object Detection)
   - CLIP + FAISS (Image Similarity)
-  - IndicTrans2 (Indian Language Translation)
-  - CodeT5-small (Code Explanation)
+  - Helsinki-NLP’s opus-mt model (Indian Language Translation)
+  - Python-based rules/parsing heuristics along with BART(a powerful AI model) as a backup. (Code Analysis)
 
 ---
 
@@ -80,6 +81,6 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 > **Intern:** Paakhi Priya  
 > **Mentor Lab:** SSPL, DRDO  
 > **Project Duration:** 8 weeks  
-> **Title:** *Building a Gen-AI Assistant for DRDO Research Support*
+
 
 
