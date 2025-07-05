@@ -12,7 +12,7 @@ Navigating through large volumes of DRDO research data, PDFs, lab descriptions, 
 
 ##  Solution Approach
 
-We are building a chatbot-based web application without external API calls for security that:
+We are building an offline-capable chatbot-based web application without external API calls for security that:
 - Scrapes, processes, and indexes DRDO data offline
 - Uses NLP and semantic embeddings to understand and answer queries
 - Summarizes long technical documents
