@@ -1,0 +1,19 @@
+Title: DRDO Missile Technologies Overview
+
+The Defence Research and Development Organisation (DRDO) has made significant strides in developing indigenous missile systems for national defense. Among the most notable are the Agni, Prithvi, Akash, and Nag series of missiles.
+
+The Agni series includes long-range surface-to-surface ballistic missiles. Agni-V, in particular, has an intercontinental range exceeding 5,000 km. These missiles use solid propellant engines and modern guidance systems to ensure accuracy and deterrence.
+
+The Prithvi series focuses on short-range ballistic missiles. These were among DRDO’s earliest successes and are now deployed in the Indian Army. Prithvi-II has a range of about 250–350 km and can carry various payloads.
+
+Akash is a medium-range surface-to-air missile designed to intercept aerial threats. It is supported by a sophisticated radar-based tracking system and command guidance. It has been successfully deployed by the Indian Air Force and Army.
+
+The Nag missile is an anti-tank guided missile (ATGM) with fire-and-forget capability, featuring imaging infrared seekers. Its variants, such as HELINA and MPATGM, are under various stages of trials and deployment.
+
+DRDO's collaboration with private industries and academic institutions has accelerated the pace of innovation. Indigenous missile systems are now critical components of India’s defense architecture, offering deterrence and quick response.
+
+The Missile Complex of DRDO, headquartered in Hyderabad, includes key labs such as the Defence Research and Development Laboratory (DRDL), Research Centre Imarat (RCI), and Advanced Systems Laboratory (ASL), all focused on propulsion, guidance, and warhead technologies.
+
+With continued R&D, DRDO aims to develop hypersonic missiles and reusable launch systems in the near future.
+
+End of Document.

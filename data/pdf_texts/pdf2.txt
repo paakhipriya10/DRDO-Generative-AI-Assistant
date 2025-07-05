@@ -1,0 +1,33 @@
+Title: DRDO Labs and Ongoing Projects
+
+The Defence Research and Development Organisation (DRDO) operates through a network of over 40 laboratories, each dedicated to a specific domain of military technology. These include aeronautics, missiles, electronics, armaments, naval systems, life sciences, and advanced computing.
+
+Key labs include:
+
+1. **DRDL (Defence Research and Development Laboratory)** – Works on missile systems.
+2. **ADE (Aeronautical Development Establishment)** – Designs UAVs and flight systems.
+3. **DLRL (Defence Electronics Research Lab)** – Develops electronic warfare technologies.
+4. **SSPL (Solid State Physics Laboratory)** – Specializes in semiconductors and materials.
+5. **INMAS (Institute of Nuclear Medicine and Allied Sciences)** – Focuses on life sciences and medical countermeasures.
+6. **CAIR (Centre for Artificial Intelligence and Robotics)** – Develops AI tools for battlefield scenarios.
+7. **GTRE (Gas Turbine Research Establishment)** – Works on indigenous jet engines.
+
+Recent Projects:
+
+- **UAV Rustom-II**: Medium-altitude, long-endurance unmanned aerial vehicle.
+- **AURA UCAV**: A stealthy unmanned combat aerial vehicle under advanced development.
+- **Light Combat Aircraft (Tejas)**: Indigenous multi-role fighter aircraft already deployed.
+- **Netra AEW&CS**: Airborne early warning and control systems developed for the Indian Air Force.
+- **Arjun MBT**: Main battle tank designed for desert warfare, now under Mk1A upgrades.
+- **Hypersonic Technology Demonstrator Vehicle (HSTDV)**: A step toward hypersonic missile systems.
+- **SAMAR air defense system**: A mobile air defense platform.
+
+In addition to the laboratories, DRDO supports the DRDO Young Scientist Laboratories (DYSLs), which foster innovation in artificial intelligence, quantum technologies, cognitive technologies, and smart materials.
+
+Each lab follows a multi-tier project execution model, often collaborating with industry partners and academic institutions under initiatives like Technology Development Fund (TDF) and Innovations for Defence Excellence (iDEX).
+
+The organization’s future roadmap includes quantum radar, directed-energy weapons, space-based surveillance, and integrated electronic warfare systems.
+
+DRDO’s motto, “Balasya Mulam Vigyanam,” highlights science as the foundation of strength. Its mission is to build a self-reliant India with cutting-edge indigenous defense capabilities.
+
+End of Document.
