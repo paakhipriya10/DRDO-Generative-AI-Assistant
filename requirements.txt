@@ -5,13 +5,13 @@ streamlit==1.33.0
 PyPDF2==3.0.1
 
 # Web Scraping
-requests==2.31.0
+requests==2.32.4
 beautifulsoup4==4.12.3
 
 # Hugging Face Transformers and Embeddings
-transformers==4.30.2
+transformers==4.40.1
 sentence-transformers==2.2.2
-huggingface-hub==0.16.4
+huggingface-hub==0.33.1
 torch==2.2.1
 torchvision==0.17.1
 numpy==1.26.4
@@ -20,7 +20,7 @@ numpy==1.26.4
 faiss-cpu==1.7.4
 
 # Image Processing
-opencv-python==4.9.0.80
+opencv-python==4.11.0.86
 Pillow==10.3.0
 
 # Visualizations
