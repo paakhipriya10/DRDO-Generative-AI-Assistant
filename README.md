@@ -101,6 +101,10 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 7. Launch app:
    ```bash
    streamlit run app.py
+8. The app will launch at:
+   ```bash
+   http://localhost:8501
+
    
 
 ---
