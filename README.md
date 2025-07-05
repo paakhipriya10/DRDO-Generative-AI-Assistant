@@ -17,6 +17,9 @@ We are building an offline-capable chatbot-based web application without externa
 - Uses NLP and semantic embeddings to understand and answer queries
 - Summarizes long technical documents
 - Supports image and code intelligence tasks in later stages
+- Provides bilingual translation of techincal documents
+- Does Code analysis of scripts
+- Supports Image-based searching and object/threat detection in images
 
 The assistant performs all inference locally using CPU-friendly, lightweight models, making it privacy-safe and deployable even in restricted environments.
 
