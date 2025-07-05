@@ -6,7 +6,31 @@ An intelligent,offline-capable Gen-AI assistant built for DRDO staff and researc
 
 ##  Problem Statement
 
-Navigating through large volumes of DRDO research data, PDFs, lab descriptions, and reports manually is time-consuming and inefficient. There is a need for an intelligent assistant that can help researchers quickly retrieve relevant insights.Moreover,its not possible to upload confidential DRDO data on OpenAI or Gemini due to security concerns.
+Navigating vast volumes of DRDO research data, technical PDFs, lab profiles, and classified reports can be time-consuming and inefficient for researchers, interns, and analysts. Manual information retrieval not only delays decision-making but also increases the chances of overlooking critical insights. Furthermore, due to strict confidentiality protocols, DRDO data cannot be uploaded to external platforms like OpenAI or Gemini, necessitating a fully offline, secure, and locally-deployable AI assistant tailored to DRDO’s internal ecosystem.
+
+---
+
+###  Use Cases
+
+#### 1. Chatbot Assistant *(NLP + Retrieval-Augmented Generation)*
+- **Function:** Responds to queries related to DRDO labs, technologies, and reports using semantic search and summarization.  
+- **Use Case:** Helps new researchers or interns onboard quickly by providing accurate information from internal documents.
+
+#### 2. Object Detection *(Computer Vision)*
+- **Function:** Detects and labels objects in images using YOLOv5.  
+- **Use Case:** Analyze surveillance footage or drone images in defense operations.
+
+#### 3. Image Similarity Search *(CLIP + FAISS)*
+- **Function:** Finds visually similar images from a reference database.  
+- **Use Case:** Match captured images to database visuals for threat detection, target identification, or equipment verification.
+
+#### 4. Code Analyzer *(Heuristics and Generative-AI)*
+- **Function:** Summarizes Python code into simple language using parsing heuristics and BART.  
+- **Use Case:** Assists DRDO developers, interns, or analysts in understanding legacy scripts or debugging quickly.
+
+#### 5. Language Translation *(Helsinki-NLP’s opus-mt)*
+- **Function:** Translates between English and Hindi using Helsinki-NLP’s opus-mt model.  
+- **Use Case:** Helps in multi-lingual communication across DRDO labs and translating technical material or reports.
 
 ---
 
