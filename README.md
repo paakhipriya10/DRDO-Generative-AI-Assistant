@@ -45,7 +45,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 #### 5. Language Translation *(Helsinki-NLP’s opus-mt)*
 - **Function:** Translates between English and Hindi using Helsinki-NLP’s opus-mt model.  
-- **Use Case:** Helps in multi-lingual communication across DRDO labs and translating technical material or reports.
+- **Use Case:** Helps in bi-lingual communication across DRDO labs and translating technical material or reports.
 
 ---
 
