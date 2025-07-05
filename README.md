@@ -26,6 +26,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 - **Frontend:** Streamlit (custom-styled UI with tabbed navigation)
 - **Dummy Database**: curated through offline web scraping using the BeautifulSoup Python library
+- **ML Framework**: PyTorch
 - **Backend Models:**
   - *Q/A:* DistilBERT (SQuAD fine-tuned)
   - *Summarization:* DistilBART (CNN/DailyMail)
@@ -70,9 +71,23 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 ##  How to Run
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run setup: `python setup.py` (scrapes + builds FAISS index)
-3. Launch app: `streamlit run app.py`
+1. Clone the project folder using Git or download it manually:
+   ```bash
+   git clone https://github.com/paakhipriya10/DRDO-Generative-AI-Assistant.git
+   cd DRDO-Generative-AI-Assistant
+2. Create a virtual python environment and activate it:
+   ```bash
+   python -m venv venv #to create a virtual environment
+   venv\Scripts\activate #to activate the environment on Windows
+   source venv/bin/activate #to activate on macOS/Linux
+4. Install all required libraries using:
+   ```bash
+   pip install -r requirements.txt
+5. Do scraping using scraper.py or directly use dummy database stored in data folder
+6. Run setup:
+   ```bash
+   python setup.py  
+7. Launch app: `streamlit run app.py`
 
 ---
 
