@@ -104,9 +104,6 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 8. The app will launch at:
    ```bash
    http://localhost:8501
-
-   
-
 ---
 
 ##  Intern Info
