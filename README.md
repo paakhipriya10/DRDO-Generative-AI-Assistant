@@ -74,15 +74,20 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 1. Clone the project folder using Git or download it manually:
    ```bash
    git clone https://github.com/paakhipriya10/DRDO-Generative-AI-Assistant.git
+   ```
    ```bash
    cd DRDO-Generative-AI-Assistant
+   ```
 2. Create a virtual python environment and activate it:
    ```bash
    python -m venv venv #to create a virtual environment
+   ```
    ```bash
    venv\Scripts\activate #to activate the environment on Windows
+   ```
    ```bash
    source venv/bin/activate #to activate on macOS/Linux
+   ```
 4. Install all required libraries using:
    ```bash
    pip install -r requirements.txt
