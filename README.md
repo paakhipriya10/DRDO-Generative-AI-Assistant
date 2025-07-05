@@ -72,7 +72,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 ---
 
-##  How to Run
+##  How to Run(Ensure Python is properly installed on your system)
 
 1. Clone the project folder using Git or download it manually:
    ```bash
