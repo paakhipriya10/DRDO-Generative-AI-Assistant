@@ -67,8 +67,8 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 
 - **Week 1-2:** Set up data pipeline and semantic search
 - **Week 3-4:** Integrated summarization, Q/A, PDF support
-- **Week 5-6 (Now):** UI polish + testing existing features
-- **Week 7-8 (Planned):** Add vision and code-based features + polish
+- **Week 5-6:** UI polish + testing existing features
+- **Week 7-8:** Add vision and code-based features + polish
 
 ---
 
