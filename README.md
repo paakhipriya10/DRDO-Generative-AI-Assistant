@@ -93,7 +93,7 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
    ```
 4. Install all required libraries using:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt #Works on any Python IDE with virtual environment support.
 5. Do scraping using scraper.py and dowload PDFs or directly use dummy database stored in data folder
 6. Run setup:
    ```bash
