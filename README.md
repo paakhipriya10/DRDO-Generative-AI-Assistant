@@ -59,7 +59,6 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
   - *Summarization:* DistilBART (CNN/DailyMail)
   - *Embeddings:* SentenceTransformers (MiniLM)
 - **Data Indexing:** FAISS (for semantic search)
-- **Scraping:** Offline web scraping using BeautifulSoup
 - **Image & Code Models:** 
   - YOLOv5s (Object Detection)
   - CLIP + FAISS (Image Similarity)
