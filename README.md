@@ -77,21 +77,10 @@ The assistant performs all inference locally using CPU-friendly, lightweight mod
 - Q/A system using local DistilBERT
 - Summarization of long answers (DistilBART)
 - Dynamic multi-tabbed Streamlit interface
-
-###  Under Integration (To be completed by July-End)
 - Object detection from uploaded images (YOLOv5s)
 - CLIP-based image similarity search
 - Helsinki-NLP’s opus-mt model multilingual translation (due to unavaibility of IndicTrans2 model)
 - Code analysis using python-based rules/parsing heuristics(switched from CodeT5 model)
-
----
-
-##  Progress Timeline
-
-- **Week 1-2:** Set up data pipeline and semantic search
-- **Week 3-4:** Integrated summarization, Q/A, PDF support
-- **Week 5-6:** UI polish + testing existing features
-- **Week 7-8:** Add vision and code-based features + polish
 
 ---
 
