@@ -4,6 +4,14 @@ An intelligent,offline-capable Gen-AI assistant built for DRDO staff and researc
 
 ---
 
+## Demo Video
+
+[![Watch the Demo](screenshots/demo_thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
+
+🎥 Click the image above to watch the full demo video.
+
+---
+
 ##  Problem Statement
 
 Navigating vast volumes of DRDO research data, technical PDFs, lab profiles, and classified reports can be time-consuming and inefficient for researchers, interns, and analysts. Manual information retrieval not only delays decision-making but also increases the chances of overlooking critical insights. Furthermore, due to strict confidentiality protocols, DRDO data cannot be uploaded to external platforms like OpenAI or Gemini, necessitating a fully offline, secure, and locally-deployable AI assistant tailored to DRDO’s internal ecosystem.
