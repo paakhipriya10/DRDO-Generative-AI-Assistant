@@ -6,7 +6,7 @@ An intelligent,offline-capable Gen-AI assistant built for DRDO staff and researc
 
 ## Demo Video
 
-[![Watch the Demo](screenshots/demo_thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
+[![Watch the Demo](screenshots/demo_thumbnail.png)](https://youtu.be/NAPwQLyyilM)
 
 🎥 Click the image above to watch the full demo video.
 
